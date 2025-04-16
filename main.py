@@ -17,8 +17,9 @@ load_dotenv()
 
 # Configuration
 GROQ_API_KEY = os.getenv("GROQ_API_KEY")
-MICROSOFT_APP_ID = os.getenv("MicrosoftAppId")  # From Azure
-MICROSOFT_APP_PASSWORD = os.getenv("MicrosoftAppPassword")  # From Azure
+MICROSOFT_APP_ID = os.getenv("MICROSOFT_APP_ID")       # ✅ Use correct casing
+MICROSOFT_APP_PASSWORD = os.getenv("MICROSOFT_APP_PASSWORD")  # ✅ Match Render env keys
+
 
 # Adapter with error handling
 class AdapterWithErrorHandler(BotFrameworkAdapter):
