@@ -68,7 +68,7 @@ async def on_message_activity(turn_context: TurnContext):
             "Content-Type": "application/json",
         }
         data = {
-            "model": "mixtral-8x7b-32768",
+            "model": "llama-3.3-70b-versatile",
             "messages": [
                 {"role": "system", "content": HR_SYSTEM_PROMPT},
                 {"role": "user", "content": user_message},
