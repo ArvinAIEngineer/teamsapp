@@ -1,0 +1,50 @@
+{
+    "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.14/MicrosoftTeams.schema.json",
+    "manifestVersion": "1.14",
+    "version": "1.0.0",
+    "id": "88d2a123-d987-426e-b7f1-b4c82678b65a",
+    "packageName": "com.yourcompany.hrbot",
+    "developer": {
+      "name": "Alpharithm",
+      "websiteUrl": "https://www.alpharithm.com",
+      "privacyUrl": "https://www.alpharithm.com/privacy",
+      "termsOfUseUrl": "https://www.alpharithm.com/terms"
+    },
+    "icons": {
+      "color": "color.png",
+      "outline": "outline.png"
+    },
+    "name": {
+      "short": "HR Assistant",
+      "full": "HR Policy Assistant Bot"
+    },
+    "description": {
+      "short": "Answer HR policy questions",
+      "full": "A helpful bot that answers questions about company HR policies including leave, benefits, remote work, dress code, and performance reviews."
+    },
+    "accentColor": "#FFFFFF",
+    "bots": [
+      {
+        "botId": "88d2a123-d987-426e-b7f1-b4c82678b65a",
+        "scopes": [
+          "personal",
+          "team",
+          "groupchat"
+        ],
+        "supportsFiles": false,
+        "isNotificationOnly": false,
+        "webApplicationInfo": {
+          "id": "88d2a123-d987-426e-b7f1-b4c82678b65a",
+          "resource": "https://api.botframework.com"
+        }
+      }
+    ],
+    "permissions": [
+      "identity",
+      "messageTeamMembers"
+    ],
+    "validDomains": [
+      "teamsapp-kdcd.onrender.com"
+    ]
+  }
+  
